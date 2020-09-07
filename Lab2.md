@@ -1,4 +1,4 @@
-**#Завдання 1. Для цього списку знайдіть sum за допомогою lapply.**
+**Завдання 1. Для цього списку знайдіть sum за допомогою lapply.**
 ``` r
 list1 <- list(observationA = c(1:5, 7:3), observationB = matrix(1:6, nrow=2))
 lapply(list1, sum)
@@ -11,7 +11,7 @@ $observationB
 [1] 21
 ```
 
-**#Завдання 2. Для кожного елементу списку list1 знайдіть максимальне та мінімальне значення (range) за допомогою lapply та sapply.**
+**Завдання 2. Для кожного елементу списку list1 знайдіть максимальне та мінімальне значення (range) за допомогою lapply та sapply.**
 ``` r
 lapply(list1, range)
 sapply(list1, range)
@@ -29,7 +29,7 @@ $observationB
 [1,]            1            1
 [2,]            7            6
 ```
-**#Завдання 3. Для вбудованого набору даних InsectSprays знайти середнє count для кожного spray.**
+**Завдання 3. Для вбудованого набору даних InsectSprays знайти середнє count для кожного spray.**
 ``` r
 InsectSprays<-InsectSprays
 
